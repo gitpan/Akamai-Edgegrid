@@ -26,5 +26,5 @@ WriteMakefile(
 	'Data::UUID' => 0
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'edgegrid-perl-*' },
+    clean => { FILES => 'Akamai-Edgegrid-*' },
 );
